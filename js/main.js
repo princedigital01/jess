@@ -1,0 +1,1 @@
+$(document).ready((function(){$(".tooltip").each((function(){var t=$(this),o=$("<div/>").addClass("tooltip-balloon").text(t.data("tooltip"));t.append(o)}))}));
