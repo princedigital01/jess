@@ -1,1 +1,0 @@
-$(document).ready((function(){function n(){$(".expanding-item").css({display:"none"});var n=$(window).width()/245;console.log(n),$(".expanding-item:lt("+2*Math.floor(n)+")").css({display:"inline-block"})}$(window).resize((function(){n()})),n()}));
